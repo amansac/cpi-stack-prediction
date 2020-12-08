@@ -1,0 +1,20 @@
+events:
+  - cycles
+  - instructions
+  - branch-misses
+  - L2-load-misses
+  - L2-store-misses
+  - L1-dcache-load-misses
+  - L1-icache-load-misses
+  - dTLB-load-misses
+  - dTLB-store-misses
+  - iTLB-load-misses
+  - branch-load-misses
+
+benchmarks:
+  - 557.xz r
+  - 531.deepsjeng r
+  - 520.omnetpp r
+  - 526.blender r
+  - 511.povray r
+  - 507.cactuBSSN r
